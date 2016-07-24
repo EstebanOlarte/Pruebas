@@ -10,12 +10,17 @@
     <sprite>sprites\municion</sprite>
     <sprite>sprites\municion_2</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\sprMuro</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\RutaOso</path>
+  </paths>
   <objects name="objects">
     <object>objects\objPerson</object>
     <object>objects\objMunicion</object>
+    <object>objects\objEnemy</object>
+    <object>objects\objMuro</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
